@@ -1,0 +1,8 @@
+<!ELEMENT element EMPTY>
+<!ATTLIST element name NMTOKEN #REQUIRED>
+<!ATTLIST element type NMTOKEN #REQUIRED>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT fecha-de-nacimiento (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT apto (#PCDATA)>

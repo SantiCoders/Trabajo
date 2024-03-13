@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="díasemana">
+<xs:restriction base="xs:string">
+<xs:enumeration value="miércoles"/>
+<xs:enumeration value="viernes"/>
+</xs:restriction>
+</xs:simpleType>
+<xs:element name="jornada" type="díasemana"/>
+
+<xs:element name="clase">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="jornada" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
